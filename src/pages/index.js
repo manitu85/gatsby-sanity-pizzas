@@ -4,6 +4,20 @@ import LoadingGrid from 'components/common/grid/LoadingGrid';
 import { HomePageGrid } from 'components/common/grid/Grids';
 import ItemGrid from 'components/common/grid/ItemGrid';
 
+const HomePage = () => {
+  const { slicemasters, hotSlices } = useLatestData();
+  return (
+    <div className="center">
+      <h1>The Best Pizza Downtown!</h1>
+      <p>Open 11am to 11pm Every Single Day</p>
+      <HomePageGrid>
+        <CurrentlySlicing slicemasters={slicemasters} />
+        <HotSlices hotSlices={hotSlices} />
+      </HomePageGrid>
+    </div>
+  );
+};
+
 function CurrentlySlicing({ slicemasters }) {
   console.log(slicemasters);
   return (
@@ -35,17 +49,4 @@ function HotSlices({ hotSlices }) {
   );
 }
 
-export default function HomePage() {
-  const { slicemasters, hotSlices } = useLatestData();
-
-  return (
-    <div className="center">
-      <h1>The Best Pizza Downtown!</h1>
-      <p>Open 11am to 11pm Every Single Day</p>
-      <HomePageGrid>
-        <CurrentlySlicing slicemasters={slicemasters} />
-        <HotSlices hotSlices={hotSlices} />
-      </HomePageGrid>
-    </div>
-  );
-}
+export default HomePage;
