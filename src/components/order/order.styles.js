@@ -15,7 +15,9 @@ const OrderStyles = styled.form`
     &.menu {
       grid-column: span 1;
     }
-    /* info */
+  }
+  .mapleSyrup {
+    display: none;
   }
   /* @media (max-width: 900px) {
     fieldset.menu,
