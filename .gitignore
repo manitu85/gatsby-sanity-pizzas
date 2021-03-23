@@ -56,4 +56,4 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 
-/functions
+/functions/placeOrder/node_modules
