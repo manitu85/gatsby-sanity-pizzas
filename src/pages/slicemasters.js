@@ -80,6 +80,10 @@ const SlicemasterStyles = styled.div`
     margin-bottom: -2rem;
     position: relative;
     z-index: 2;
+
+    @media (max-width: 800px) {
+      font-size: clamp(12px, 5vw, 20px);
+    }
   }
   .description {
     background: var(--yellow);
