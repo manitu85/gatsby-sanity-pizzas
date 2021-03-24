@@ -1,3 +1,4 @@
+// Example aws-lambada function
 exports.handler = async (event, context) => {
   console.log(event);
   return {
