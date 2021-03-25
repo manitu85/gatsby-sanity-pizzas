@@ -175,7 +175,7 @@ export const createPages = async (params) => {
 
 // #############################################################################
 
-// Config gor absolute imports
+// Config absolute imports
 exports.onCreateWebpackConfig = ({ actions }) => {
   actions.setWebpackConfig({
     resolve: {
