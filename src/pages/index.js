@@ -19,7 +19,7 @@ const HomePage = () => {
 };
 
 function CurrentlySlicing({ slicemasters }) {
-  console.log(slicemasters);
+  // console.log(slicemasters);
   return (
     <div>
       <h2 className="center">
