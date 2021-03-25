@@ -2,7 +2,7 @@ import React from 'react';
 import Img from 'gatsby-image';
 import { formatMoney, calculatePizzaPrice } from 'utils';
 
-import MenuItemStyles from './menu-item.styles';
+import MenuItemStyles from './menuItem.styles';
 
 export default function PizzaOrder({ order, pizzas, removeFromOrder }) {
   return (
