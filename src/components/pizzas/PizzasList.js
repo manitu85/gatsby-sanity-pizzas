@@ -2,17 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 import SinglePizza from './SinglePizza';
 
-const PizzasList = ({ pizzas }) => {
-  console.log('PIZZAS :>> ', pizzas);
-  return (
-    <PizzasGrid>
-      {pizzas.map((pizza) => (
-        <SinglePizza key={pizza.id} pizza={pizza} />
-      ))}
-    </PizzasGrid>
-  );
-};
-
+const PizzasList = ({ pizzas }) => (
+  // console.log('PIZZAS :>> ', pizzas);
+  <PizzasGrid>
+    {pizzas.map((pizza) => (
+      <SinglePizza key={pizza.id} pizza={pizza} />
+    ))}
+  </PizzasGrid>
+);
 export default PizzasList;
 
 const PizzasGrid = styled.div`
