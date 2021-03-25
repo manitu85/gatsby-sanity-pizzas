@@ -1,6 +1,6 @@
 # Gatsby Sanity Pizzas
 
-> Website for a local pizza joint called Slick's Slices [Master Gatsby](https://mastergatsby.com/) tutorial by Wes Bos.
+> Website for a local pizza joint called Slick's Slices. [Master Gatsby](https://mastergatsby.com/) tutorial by Wes Bos.
 
 ## Running Locally
 
@@ -13,14 +13,14 @@
 
 ## Environment Variables
 
-SANITY_TOKEN=
-GATSBY_PAGE_SIZE=
-GATSBY_API_URL=
-GATSBY_GRAPHQL_ENDPOINT=
-GATSBY_SERVERLESS_BASE=
-MAIL_HOST=
-MAIL_USER=
-MAIL_PASS=
+**SANITY_TOKEN=**
+**GATSBY_PAGE_SIZE=**
+**GATSBY_API_URL=**
+**GATSBY_GRAPHQL_ENDPOINT=**
+**GATSBY_SERVERLESS_BASE=**
+**MAIL_HOST=**
+**MAIL_USER=**
+**MAIL_PASS=**
 
 ## Built Using
 
